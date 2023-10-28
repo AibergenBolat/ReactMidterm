@@ -1,7 +1,6 @@
 // src/AppRouter.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Explore from './page/Explore';
 import Profile from './page/Profile';
 import Post from './post/Post';
 import Home from './page/Home';

@@ -1,0 +1,40 @@
+/* src/components/home.css */
+
+.home-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light grey background */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.home-page h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey text */
+}
+
+/* Apply styles for the Post component */
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.post-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333; /* Dark grey text */
+}
+
+.delete-button {
+    background-color: #e74c3c; /* Red delete button */
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+}

@@ -1,8 +1,8 @@
 // src/components/HomePage.js
 import React, { useState } from 'react';
 import Post from '../post/Post';
-
-const HomePage = () => {
+import './home.css';
+const Home = () => {
     const [posts, setPosts] = useState([
         { postId: 1, title: 'Post 1' },
         { postId: 2, title: 'Post 2' },
@@ -27,4 +27,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Home;
